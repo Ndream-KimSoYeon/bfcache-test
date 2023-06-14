@@ -11,7 +11,12 @@ function Main() {
       <button onClick={() => {
         setIsColor(true)
       }}>색 변경</button>
-      <Link to="/second">페이지 이동</Link>
+      <p>
+        <Link to="/second">페이지 이동(react-route Link 사용)</Link>
+      </p>
+      <p>
+        <a href='/second'>페이지 이동(a태그 사용)</a>
+      </p>
     </div>
   );
 }
