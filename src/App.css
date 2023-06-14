@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+.main {
+  height: "100vh";
+}
+
+.mainColor {
+  height: "100vh";
+  background-color: cadetblue;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
