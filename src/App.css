@@ -1,18 +1,26 @@
+p {
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
 
+button {
+  display: block;
+  margin: 20px auto;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 .main {
-  height: "100vh";
+  height: 100vh;
 }
 
 .mainColor {
-  height: "100vh";
+  height: 100vh;
   background-color: cadetblue;
 }
 
